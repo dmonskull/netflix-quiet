@@ -4,9 +4,9 @@ Netflix ad blocker for Chrome, Opera and Opera GX. Simple on/off switch. Runs in
 
 ## install
 
-1. Download the repo (**Code → Download ZIP**) and extract it.
+1. Download the ZIP from [releases](https://github.com/dmonskull/netflix-quiet/releases/latest) and extract it.
 2. Open `chrome://extensions` in Chrome or `opera://extensions` in Opera / Opera GX. Turn on **Developer mode**.
-3. Click **Load unpacked** and select the extracted folder.
+3. Click **Load unpacked** and select the `netflix-quiet` folder.
 4. Reload Netflix. That's it.
 
 If playback gets stuck, turn it off and reload the tab. Changes to the toggle need a reload to take effect.
