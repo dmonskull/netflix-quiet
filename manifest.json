@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Netflix Quiet",
+  "version": "0.1.1",
+  "description": "Netflix ad blocker. Simple on/off switch.",
+  "minimum_chrome_version": "111",
+  "permissions": ["storage", "scripting"],
+  "host_permissions": ["https://www.netflix.com/*"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_popup": "popup.html", "default_title": "Netflix Quiet" },
+  "icons": { "16": "icons/16.png", "48": "icons/48.png", "128": "icons/128.png" }
+}
